@@ -13,13 +13,9 @@ from TTS.utils.manage import ModelManager
 import os
 
 
-# Initialize the config parser
-
-
-
 app = FastAPI(
     title="voice generator",
-    description="This API serves voide in wav files",
+    description="This API serves voice in wav files",
     version="1.0.1",
 )
 
